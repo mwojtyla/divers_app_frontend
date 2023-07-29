@@ -69,6 +69,7 @@ public class RegistrationView extends VerticalLayout {
                     .login(login.getValue())
                     .password(password.getValue())
                     .build());
+            Notification.show("Registration completed successfully! Log in to your account.");
             UI.getCurrent().navigate("main-view");
         }
     }

@@ -52,6 +52,7 @@ public class AccountView extends VerticalLayout {
         singleFormatDatePicker.setI18n(singleFormatI18n);
         setPadding(false);
 
+        login.setReadOnly(true);
 
         add(
                 new H3("YOUR ACCOUNT"),
